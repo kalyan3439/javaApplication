@@ -19,7 +19,7 @@ jobs:
       inputs:
       - name: https://github.com/kalyan3439/javaApplication.git
       run:
-        path: your-java-app-repo/build.sh  # Adjust this script name accordingly
+        path: https://github.com/kalyan3439/javaApplication/build.sh  # Adjust this script name accordingly
   - task: test
     config:
       platform: linux
@@ -29,4 +29,4 @@ jobs:
       inputs:
       - name: your-java-app-repo
       run:
-        path: your-java-app-repo/test.sh  # Adjust this script name accordingly
+        path: https://github.com/kalyan3439/javaApplication/test.sh  # Adjust this script name accordingly
